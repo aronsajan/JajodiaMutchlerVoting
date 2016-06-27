@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/Common/Utilities.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/Common/Configuration.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/Voting/SharedData.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/CommandEngine/CommandHandler/GO_AHEAD_UPDATEHandler.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/Common/InstanceInfo.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/View/MainView.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/CommandEngine/CommandHandler/JOIN_NETWORK_ACKHandler.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/Voting/Systems/SystemList.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/Voting/UpdateManager.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/CommandEngine/CommandHandler/CASCADE_JOINHandler.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/CommandEngine/CommandProcessor.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/IOSubsystem/CommandTransceiver.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/View/ConfigView.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/IOSubsystem/FileManager.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/CommandEngine/CommandHandler/DISCONNECT_MEHandler.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/CommandEngine/Commands.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/IOSubsystem/CommandListenerThread.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/Serializer/BinarySerializer.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/Voting/Initializer.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/CommandEngine/CommandHandler/I_WANT_TO_JOINHandler.java</file>
+            <file>file:/C:/Users/Aron/Documents/NetBeansProjects/DistributedVoting/src/CommandEngine/CommandHandler/CAN_I_UPDATEHandler.java</file>
+        </group>
+    </open-files>
+</project-private>

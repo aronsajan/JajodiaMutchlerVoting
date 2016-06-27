@@ -1,0 +1,229 @@
+
+{dc33:~/Voting} java -jar DistributedVoting.jar
+STATUS : DS : C
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : STATUS : Command Listener Activated on port 7458
+2
+Target System ID in the group : A
+STATUS : Join request sent to node A (dc30.utdallas.edu). Waiting for Join ACK
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : STATUS : Join ACK received from A
+STATUS : B added to Neighbors
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 0  RU: 3  DS: C
+------------------------------------------
+
+STATUS : Request to join the network received from node D (dc34.utdallas.edu)
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 0  RU: 4  DS: D
+------------------------------------------
+
+STATUS : Cascade join command received. Node requested for Join: E
+STATUS : E added to Neighbors
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 0  RU: 5  DS: E
+------------------------------------------
+
+STATUS : Cascade join command received. Node requested for Join: F
+STATUS : F added to Neighbors
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 0  RU: 6  DS: F
+------------------------------------------
+
+STATUS : Cascade join command received. Node requested for Join: G
+STATUS : G added to Neighbors
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 0  RU: 7  DS: G
+------------------------------------------
+
+STATUS : Cascade join command received. Node requested for Join: H
+STATUS : H added to Neighbors
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 0  RU: 8  DS: H
+------------------------------------------
+
+STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 1  RU: 8  DS: H
+------------------------------------------
+
+STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 2  RU: 8  DS: H
+------------------------------------------
+
+STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 3  RU: 8  DS: H
+------------------------------------------
+
+STATUS : Connection to node E has been lost
+STATUS : Connection to node F has been lost
+STATUS : Connection to node G has been lost
+STATUS : Connection to node H has been lost
+5
+STATUS : Requesting for vote...
+STATUS : Approval Response From : A
+STATUS : Approval Response From : B
+STATUS : Approval Response From : D
+STATUS : Votes created a tie. Checking for DS response
+STATUS : DS did not respond. Update process terminated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 3  RU: 8  DS: H
+------------------------------------------
+
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : STATUS : Connection to node A has been lost
+3
+No.      System ID       System Name
+------------------------------------------------------------
+1.      B       dc31.utdallas.edu
+2.      D       dc34.utdallas.edu
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : 5
+STATUS : Requesting for vote...
+STATUS : Approval Response From : B
+STATUS : Approval Response From : D
+STATUS : Votes obtained forms only a minority. Update process terminated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 3  RU: 8  DS: H
+------------------------------------------
+
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : 2
+Target System ID in the group : B
+STATUS : Join request sent to node B (dc31.utdallas.edu). Waiting for Join ACK
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : STATUS : Join ACK received from B
+STATUS : System repair under progress...
+STATUS : Leaving the current group...
+STATUS : Connection with B has been lost
+STATUS : Connection with D has been lost
+STATUS : Joining with the group of node B
+STATUS : E added to Neighbors
+STATUS : F added to Neighbors
+STATUS : G added to Neighbors
+STATUS : D added to Neighbors
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 7  RU: 6  DS: G
+------------------------------------------
+
+3
+No.      System ID       System Name
+------------------------------------------------------------
+1.      B       dc31.utdallas.edu
+2.      E       dc35.utdallas.edu
+3.      F       dc36.utdallas.edu
+4.      G       dc37.utdallas.edu
+5.      D       dc34.utdallas.edu
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : 6
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 7  RU: 6  DS: G
+------------------------------------------
+
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 8  RU: 6  DS: G
+------------------------------------------
+
+STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 9  RU: 6  DS: G
+------------------------------------------
+
+STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 10  RU: 6  DS: G
+------------------------------------------
+
+STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 11  RU: 6  DS: G
+------------------------------------------
+7
+STATUS : Command Listener has been closed
+{dc33:~/Voting}

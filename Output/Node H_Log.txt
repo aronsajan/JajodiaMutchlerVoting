@@ -1,0 +1,187 @@
+{dc38:~/Voting} java -jar DistributedVoting.jar
+STATUS : DS : H
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : STATUS : Command Listener Activated on port 7458
+2
+Target System ID in the group : E
+STATUS : Join request sent to node E (dc35.utdallas.edu). Waiting for Join ACK
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : STATUS : Join ACK received from E
+STATUS : B added to Neighbors
+STATUS : A added to Neighbors
+STATUS : C added to Neighbors
+STATUS : D added to Neighbors
+STATUS : F added to Neighbors
+STATUS : G added to Neighbors
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 0  RU: 8  DS: H
+------------------------------------------
+
+STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 1  RU: 8  DS: H
+------------------------------------------
+
+STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 2  RU: 8  DS: H
+------------------------------------------
+
+STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 3  RU: 8  DS: H
+------------------------------------------
+
+STATUS : Connection to node E has been lost
+STATUS : Connection to node F has been lost
+STATUS : Connection to node G has been lost
+4
+Target System ID in the group : C
+STATUS : Connection with B has been lost
+STATUS : Connection with A has been lost
+STATUS : Connection with C has been lost
+STATUS : Connection with D has been lost
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : 2
+Target System ID in the group : E
+STATUS : Join request sent to node E (dc35.utdallas.edu). Waiting for Join ACK
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : STATUS : Join ACK received from E
+STATUS : F added to Neighbors
+STATUS : G added to Neighbors
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 3  RU: 8  DS: H
+------------------------------------------
+
+3
+No.      System ID       System Name
+------------------------------------------------------------
+1.      E       dc35.utdallas.edu
+2.      F       dc36.utdallas.edu
+3.      G       dc37.utdallas.edu
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : 6
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 3  RU: 8  DS: H
+------------------------------------------
+
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 4  RU: 4  DS: H
+------------------------------------------
+
+STATUS : Shared Data Updated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 5  RU: 4  DS: H
+------------------------------------------
+
+4
+Target System ID in the group : F
+STATUS : Connection with E has been lost
+STATUS : Connection with F has been lost
+STATUS : Connection with G has been lost
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : 3
+No.      System ID       System Name
+------------------------------------------------------------
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : 5
+STATUS : Requesting for vote...
+STATUS : Votes obtained forms only a minority. Update process terminated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 5  RU: 4  DS: H
+------------------------------------------
+
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : 5
+STATUS : Requesting for vote...
+STATUS : Votes obtained forms only a minority. Update process terminated
+
+VOTING PARAMETERS
+------------------------------------------
+VN: 5  RU: 4  DS: H
+------------------------------------------
+
+1. View all participant systems
+2. Establish/Repair connection to another group
+3. View my neighborhood
+4. Disconnect from another group
+5. Make an update to the shared data
+6. View voting parameters
+7. Exit
+Option : 7
+STATUS : Command Listener has been closed
+{dc38:~/Voting}
